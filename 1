@@ -1,0 +1,56 @@
+#wrapper{
+width:100%;
+    }
+
+header ul{
+width:100%;
+height: 60px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding: 5px;
+    }
+
+header ul .logo{
+font-family:serif;
+font-size:30px;
+color:blue;
+    }
+
+header ul li{
+font-size:20px;
+    }
+
+main #main__screen{
+height:100vh;
+opacity:0.8;
+background-size:cover;
+background-position:center;
+animation: 15s TopAnimation infinite;
+    }
+@keyframes TopAnimation{
+0%{
+background-image:url("lelauxes.jpg");
+    }
+50%{
+background-image:url("matuge.jpg");
+    }
+75%{
+background-image:url("amoma.jpg");
+}
+100%{
+background-image:url("neiru3.jpg");
+    }
+    }
+
+main #main__screen .main__logo {
+width:400px;
+height:400px;
+text-align:center;
+margin-top:100px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+border:4px solid #fff;
+z-index:2;
+    }
